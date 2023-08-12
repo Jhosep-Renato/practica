@@ -18,3 +18,8 @@ a:hover {
 .sidebar-container .menu {
     width: 18rem;
 }
+
+.azul {
+    background-color: rgb(8, 8, 54);
+    margin-bottom: 60px;
+}
