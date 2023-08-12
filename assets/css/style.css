@@ -1,0 +1,20 @@
+body {
+    overflow: hidden;
+    
+}
+
+.sidebar-container {
+    flex-direction: column;
+    min-height: 100vh;
+    border: 1px black solid;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    background-color: aqua;
+}
+.sidebar-container .menu {
+    width: 18rem;
+}
