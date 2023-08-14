@@ -11,10 +11,6 @@ body {
 a {
     text-decoration: none;
 }
-a:hover {
-    text-decoration: none;
-    background-color: aqua;
-}
 .sidebar-container .menu {
     width: 18rem;
 }
