@@ -163,7 +163,108 @@
                         GENERAR PDF
                     </button>
                 </div>
+            </div>
+            <div class="container my-5 ">
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button type="button" class="nav-link active" id="datosPersonales-tab" data-bs-toggle="tab" data-bs-target="#datosPersonales" role="tab" aria-controls="nav-home" aria-selected="true">
+                            1er
+                        </button>
+
+                        <button type="button" class="nav-link" id="nose-tab" data-bs-toggle="tab" data-bs-target="#nose" role="tab" aria-controls="nav-home" aria-selected="true">
+                            2do
+                        </button>
+
+                        <button type="button" class="nav-link" id="peor-tab" data-bs-toggle="tab" data-bs-target="#peor" role="tab" aria-controls="nav-home" aria-selected="true">
+                            3er
+                        </button>
+                    </div>
+                </nav>
                 
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active py-5 " id="datosPersonales" role="tabpanel" aria-labelledby="datosPersonales-tab">
+                        <h2>1.- DATOS PERSONALES</h2>
+                        <form action="#" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="d-flex">
+                                        <p style="margin-right: 400px;">Sexo</p>
+                                        <p>Fecha Nacimiento</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <select class="form-select" aria-label="Default select example" style="width: 300px ;"">
+                                            <option selected>Seleccione una opcion</option>
+                                            <option value="masculino">Masculino</option>
+                                            <option value="femenino">Femenino</option>
+                                          </select>
+
+                                          <input  class="form-control" type="date" name="fechaNacimiento" id="fecha-id" style="margin-left: 160px; width: 220px;">
+                                    </div>
+                                    <div>
+                                        <p>Teléfono Fijo</p>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    
+                                    <div>
+                                        <p>RUC</p>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div>
+                                        <p>Brevete y Categoria</p>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div class="d-flex">
+                                        <p style="margin-right: 400px;">Estado Civil</p>
+                                        <p>Fecha Matrimonio</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <select class="form-select" aria-label="Default select example" style="width: 300px ;"">
+                                            <option selected>Seleccionar</option>
+                                            <option value="masculino">Casado</option>
+                                            <option value="femenino">Soltero</option>
+                                          </select>
+                                          <input  class="form-control" type="date" name="fechaMatrimonio" id="fecha-id" style="margin-left: 160px; width: 220px;">
+                                    </div>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <div>
+                                        <p>DNI</p>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div>
+                                        <p>Celular</p>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div>
+                                        <p>Lib Militar</p>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div>
+                                        <p>Si cuenta con vehiculo, indicar modelo, placa, año, color</p>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                    <div>
+                                        <p>Grupo Sanguineo</p>
+                                        <input class="form-control" type="text" name="" id="">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="tab-pane fade show p-3" id="nose" role="tabpanel" aria-labelledby="nose-tab">
+                        <h1>Nose</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dolores quasi laudantium ipsam voluptatum velit, laborum neque, fuga ipsa ex ea. Dolores sit, expedita 
+                            exercitationem molestiae voluptatem quibusdam rerum assumenda!</p>
+                    </div>
+
+                    <div class="tab-pane fade show p-3" id="peor" role="tabpanel" aria-labelledby="peor-tab">
+                        <h1>Peor</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dolores quasi laudantium ipsam voluptatum velit, laborum neque, fuga ipsa ex ea. Dolores sit, expedita 
+                            exercitationem molestiae voluptatem quibusdam rerum assumenda!</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
