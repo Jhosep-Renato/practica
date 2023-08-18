@@ -26,3 +26,15 @@ a {
 .bloque {
     box-shadow: 0px 0px 4px black;
 }
+
+.info-container {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 10px;
+}
+
+.botones-perfil {
+    display: inline-flex;
+}
