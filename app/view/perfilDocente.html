@@ -150,8 +150,8 @@
                             <p>Historial</p>
                         </div><br>
                         <div class="botones-perfil">
-                            <button type="button" class="btn img-fluid" style="border: 1px black solid;; margin-right: 60px; margin-left: 10px;"><ion-icon name="cloud-download-outline"></ion-icon></button>
-                            <button type="button" class="btn img-fluid" style="border: 1px black solid;; "><ion-icon name="document-text-outline"></ion-icon></button>
+                            <button type="button" class="btn img-fluid" style="border: 1px black solid; margin-right: 60px; margin-left: 10px;"><ion-icon name="cloud-download-outline"></ion-icon></button>
+                            <button type="button" class="btn img-fluid" style="border: 1px black solid; "><ion-icon name="document-text-outline"></ion-icon></button>
                         </div>
                     </div>
                 </div>
@@ -187,7 +187,7 @@
                         <form action="#" method="post">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="d-flex">
+                                    <div class="d-flex mt-4">
                                         <p style="margin-right: 400px;">Sexo</p>
                                         <p>Fecha Nacimiento</p>
                                     </div>
@@ -200,20 +200,20 @@
 
                                           <input  class="form-control" type="date" name="fechaNacimiento" id="fecha-id" style="margin-left: 160px; width: 220px;">
                                     </div>
-                                    <div>
+                                    <div class="mt-4">
                                         <p>Teléfono Fijo</p>
                                         <input class="form-control" type="text" name="" id="">
                                     </div>
                                     
-                                    <div>
+                                    <div class="mt-4">
                                         <p>RUC</p>
                                         <input class="form-control" type="text" name="" id="">
                                     </div>
-                                    <div>
+                                    <div class="mt-4">
                                         <p>Brevete y Categoria</p>
                                         <input class="form-control" type="text" name="" id="">
                                     </div>
-                                    <div class="d-flex">
+                                    <div class="d-flex mt-4 ">
                                         <p style="margin-right: 400px;">Estado Civil</p>
                                         <p>Fecha Matrimonio</p>
                                     </div>
@@ -225,30 +225,220 @@
                                           </select>
                                           <input  class="form-control" type="date" name="fechaMatrimonio" id="fecha-id" style="margin-left: 160px; width: 220px;">
                                     </div>
-
+                                    <div class="mt-4">
+                                        <p>E-mail (S)</p>
+                                        <div class="d-flex">
+                                            <input  class="form-control" type="text" name="" id="" style="width: 220px;">
+                                            <input  class="form-control" type="text" name="" id="" style="margin-left: 50px; width: 220px;">
+                                        </div>
+                                    </div>
                                 </div>
+
                                 <div class="col-md-6">
                                     <div>
-                                        <p>DNI</p>
-                                        <input class="form-control" type="text" name="" id="">
+                                        <div class="d-flex mt-4">
+                                            <p>DNI</p>
+                                            <button type="button" class="btn img-fluid" style="border: 1px black solid; margin-left: 410px; margin-right: 10px;">
+                                                <ion-icon name="cloud-upload-outline"></ion-icon>
+                                            </button>
+                                            <button type="button" class="btn img-fluid" style="border: 1px black solid; margin-right: 10px;">
+                                                <ion-icon name="eye-outline"></ion-icon>
+                                            </button>
+                                            <button type="button" class="btn img-fluid" style="border: 1px black solid;">
+                                                <ion-icon name="trash-outline"></ion-icon>
+                                            </button>
+                                        </div>
+                                        
+                                        <input class="form-control" type="text" name="" id="" style="width: 300px;">
                                     </div>
-                                    <div>
+                                    <div class="mt-4">
                                         <p>Celular</p>
                                         <input class="form-control" type="text" name="" id="">
                                     </div>
-                                    <div>
+                                    <div class="mt-4">
                                         <p>Lib Militar</p>
                                         <input class="form-control" type="text" name="" id="">
                                     </div>
-                                    <div>
+                                    <div class="mt-4">
                                         <p>Si cuenta con vehiculo, indicar modelo, placa, año, color</p>
                                         <input class="form-control" type="text" name="" id="">
                                     </div>
-                                    <div>
+                                    <div class="mt-4">
                                         <p>Grupo Sanguineo</p>
                                         <input class="form-control" type="text" name="" id="">
                                     </div>
                                 </div>
+
+                                
+                            </div>
+
+                            <div class="row mt-5">
+                                <h3>Lugar de Nacimiento</h3>
+                                <div class="col-md-6">
+                                    <div class="mt-4">
+                                        <p>Pais</p>
+                                        <select class="form-select" aria-label="Default select example" style="width: 300px ;"">
+                                            <option selected>Seleccionar</option>
+                                            <option value="peru">Peru</option>
+                                            <option value="femenino">Soltero</option>
+                                        </select>
+                                    </div>
+                                    <div class="mt-4">
+                                        <p>Provincia</p>
+                                        <select class="form-select" aria-label="Default select example" style="width: 300px ;"">
+                                            <option selected>Seleccionar</option>
+                                            <option value="01-lima">01-Lima</option>
+                                            <option value="femenino">Soltero</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mt-4">
+                                        <p>Departamento</p>
+                                        <select class="form-select" aria-label="Default select example" style="width: 300px ;"">
+                                            <option selected>Seleccionar</option>
+                                            <option value="15-lima">15 Lima</option>
+                                            <option value="femenino">Soltero</option>
+                                        </select>
+                                    </div>
+                                    <div class="mt-4">
+                                        <p>Distrito</p>
+                                        <select class="form-select" aria-label="Default select example" style="width: 300px ;"">
+                                            <option selected>Seleccionar</option>
+                                            <option value="masculino">35 San Martin de Porres</option>
+                                            <option value="femenino">Soltero</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-5">
+                                <h3>Domicilio</h3>
+                                <div class="mt-4">
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formulario">AÑADIR REGISTRO</button>
+                                </div>
+                                <div class="modal fade" id="formulario" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h1 class="modal-title fs-5" id="exampleModalLabel">Agregar Domicilio</h1>
+                                        </div>
+                                        <div class="modal-body">
+                                          <form action="" method="post">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div>
+                                                            <p>Pais</p>
+                                                            <select class="form-select" aria-label="Default select example" style="width: 300px ;">
+                                                                <option selected>Seleccionar</option>
+                                                                <option value="peru">Peru</option>
+                                                                <option value="femenino">Soltero</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="mt-3">
+                                                            <p>Provincia</p>
+                                                            <select class="form-select" aria-label="Default select example" style="width: 300px ;">
+                                                                <option selected>Seleccionar</option>
+                                                                <option value="02-aija">02 Aija</option>
+                                                                <option value="femenino">Soltero</option>
+                                                            </select>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div>
+                                                            <p>Departamento</p>
+                                                            <select class="form-select" aria-label="Default select example" style="width: 300px ;">
+                                                                <option selected>Seleccionar</option>
+                                                                <option value="02-ancash">02 Ancash</option>
+                                                                <option value="femenino">Soltero</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="mt-3">
+                                                            <p>Distrito</p>
+                                                            <select class="form-select" aria-label="Default select example" style="width: 300px ;">
+                                                                <option selected>Seleccionar</option>
+                                                                <option value="02-coris">02 Coris</option>
+                                                                <option value="femenino">Soltero</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <div>
+                                                        <div class="d-flex mt-3">
+                                                            <div>
+                                                                <p>Tipo Via</p>
+                                                                <select class="form-select" aria-label="Default select example" style="width: 300px ;">
+                                                                    <option selected>Seleccionar</option>
+                                                                    <option value="02-aija">02 Aija</option>
+                                                                    <option value="femenino">Soltero</option>
+                                                                </select>
+                                                            </div>
+                                                            <div style="margin-left: 20px;">
+                                                                <p>Nombre de la Via</p>
+                                                                <input type="text" class="form-control" id="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex mt-3">
+                                                            <div>
+                                                                <p>Tipo</p>
+                                                                <select class="form-select" aria-label="Default select example" style="width: 300px ;">
+                                                                    <option selected>Seleccionar</option>
+                                                                    <option value="02-aija">02 Aija</option>
+                                                                    <option value="femenino">Soltero</option>
+                                                                </select>
+                                                            </div>
+                                                            <div style="margin-left: 20px;">
+                                                                <p>Numero de Inmueble</p>
+                                                                <input type="text" class="form-control" id="">
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex mt-3">
+                                                            <div>
+                                                                <p>Tipo de Zona</p>
+                                                                <select class="form-select" aria-label="Default select example" style="width: 300px ;">
+                                                                    <option selected>Seleccionar</option>
+                                                                    <option value="02-aija">02 Aija</option>
+                                                                    <option value="femenino">Soltero</option>
+                                                                </select>
+                                                            </div>
+                                                            <div style="margin-left: 20px;">
+                                                                <p>Nombre de la Zona</p>
+                                                                <input type="text" class="form-control" id="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                                <button type="button" class="btn btn-primary">Guardar</button>
+                                            </div>
+                                          </form>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                <table class="table table-bordered mt-4">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Orden</th>
+                                        <th scope="col">Pais</th>
+                                        <th scope="col">Direccion extranjera</th>
+                                        <th scope="col">Departamento</th>
+                                        <th scope="col">Provincia</th>
+                                        <th scope="col">Distrito</th>
+                                        <th scope="col">Tipo de Via</th>
+                                        <th scope="col">Tipo</th>
+                                        <th scope="col">Numero de Inmueble</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      
+                                    </tbody>
+                                  </table>
                             </div>
                         </form>
                     </div>
